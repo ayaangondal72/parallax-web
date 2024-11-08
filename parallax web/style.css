@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+}
+.parallex1{
+    background-image: url("wallpaperflare.com_wallpaper.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Londrina Sketch", serif
+}
+.parallex2{
+    background-image: url("wallpaperflare.com_wallpaper\ \(1\).jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Londrina Sketch", serif;
+}
+.parallex3{
+    background-image: url("wallpaperflare.com_wallpaper\ \(2\).jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: "Londrina Sketch", serif
+}
+h1{
+    font-size: 6vw;
+    text-transform: capitalize;
+    color: #fff;
+}
+.content{
+    padding: 7% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "Titillium Web", sans-serif;
+    box-shadow: 0px 0 15px rgb(0, 0, 0);
+    /* background-color: #FABA94; */
+    background: linear-gradient(to right bottom, #FABA94,#ec5a04);
+
+}
+.c2{
+    /* background-color: #c714ef; */
+    background: linear-gradient(to right bottom,#db39ff,#58016c);
+}
+.c3{
+    /* background-color: #1D80D3; */
+    background: linear-gradient(to right bottom, #56b3ff,#004680);
+}
+.content h2{
+    font-size: 3vw;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.content p{
+    text-align: center;
+    font-size: 15px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    scroll-behavior: smooth;
+}
+@media (max-width:375px){
+    h1{
+        font-size: 60px;
+    }
+    .content h2{
+        font-size: 30px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+}
